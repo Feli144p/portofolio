@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#profil {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#profil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+#profil p {
+    text-align: justify;
+    flex: 1;
+    max-width: 600px;
+}
+
+#keterampilan {
+    background-color: #ade9af;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+ul li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#pendidikan {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: block;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+#kontak {
+    background-color: #fff3e0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#kontak p {
+    line-height: 1.6;
+    margin: 5px 0;
+}
+.foto-profil {
+    width: 150px; /* Sesuaikan ukuran gambar */
+    height: 150px; /* Sesuaikan ukuran gambar */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    border: 2px solid #000; /* Opsional: Tambahkan border */
+}
